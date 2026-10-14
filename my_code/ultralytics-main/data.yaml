@@ -1,0 +1,7 @@
+path: /mnt/workspace/固体胶跟踪/ultralytics-main/datasets/yolo_obb_dataset
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: Glue stick
+task: obb
