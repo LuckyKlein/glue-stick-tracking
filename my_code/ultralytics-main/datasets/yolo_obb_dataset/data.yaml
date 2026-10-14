@@ -1,0 +1,6 @@
+path: D:/project/基于yolov8的透明胶目标跟踪/数据处理/yolo_obb_dataset
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: Glue stick

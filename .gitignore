@@ -1,3 +1,6 @@
 # Python 缓存（可再生，无需上传）
 __pycache__/
 *.py[cod]
+
+# IDE 配置（机器相关，无需备份）
+.idea/

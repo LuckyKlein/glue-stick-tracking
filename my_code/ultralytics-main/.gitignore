@@ -208,3 +208,13 @@ results.csv
 fuzz-sources/
 fuzz-datasets/
 fuzz-models/
+
+# ===== 本项目定制：把数据集与训练产出纳入版本管理（覆盖上面的忽略规则）=====
+# 注意：否定规则写在文件末尾，git 以最后一条匹配的规则为准。
+!/datasets/
+!/datasets/**
+!/runs/
+!/runs/**
+
+# 排除 Jupyter 自动保存的中间文件（必须写在否定规则之后才能生效）
+.ipynb_checkpoints/
